@@ -74,4 +74,10 @@
     .hello-btn{
         border-radius: 10px;
     }
+    .home-info .name {
+        font-size: 50px;
+    }
+    .hello-btn{
+        font-size: 18px;
+    }
 }
