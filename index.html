@@ -6,13 +6,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Resume: Ganesh Musne</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style-navbar.css" />
+  <link rel="stylesheet" href="style-home.css" />
+  <link rel="stylesheet" href="style-about.css" />
+  <link rel="stylesheet" href="style-skills.css" />
+  <link rel="stylesheet" href="style-ed-ex.css" />
+  <link rel="stylesheet" href="style-footer.css" />
 </head>
 
 <body>
   <!-- Navigation Bar -->
   <section id="navigation-bar">
     <div class="navbar">
+      <div class="logo">
+        <span class="logo-1">M</span><span class="logo-2">G</span>
+      </div>
+      <input type="checkbox" id="toggler">
+      <label for="toggler" class="fas fa-bars"></label>
       <ul>
         <li><a href="#home">Home</a></li>
         <li><a href="#about">About</a></li>
@@ -33,20 +43,24 @@
         <span class="number"><i class="fa-solid fa-phone"></i> +91 8007725033</span>
         <span class="address"><i class="fa-solid fa-location-dot"></i> Gachibowli, Hyderabad.</span>
       </div>
-      <img class="home-profile" src="../Resume/images/profile-pic-gm2.jpg" alt="profile-img" />
+      <img class="home-profile" src="./images/profile-pic-gm2.jpg" alt="profile-img" />
     </div>
   </section>
 
   <!-- About Section -->
   <section id="about">
+    <span class="about-me-title">About me</span>
     <div class="about-section">
-      <img class="about-img" src="../Resume/images/ab-img.png" alt="img">
+      <img class="about-img" src="./images/ab-img.png" alt="img">
       <div class="about-info">
-        <span class="about-me-title">About me</span>
         <span class="about-info-txt">
           Hello, I'm a Frontend Developer based on Hyderabad. <br> I have rich
           Experience in Frontend Development. <br>Also I am good at JavaScript.
         </span>
+        <p class="about-info-txt-mobile">
+          Hello, I'm a Frontend Developer based on Hyderabad. I have rich
+          Experience in Frontend Development. Also I am good at JavaScript.
+        </p>
       </div>
     </div>
   </section>
@@ -86,7 +100,7 @@
   <section id="ex-ed">
     <div class="ex-ed-info">
       <div class="education">
-        <p class="ed-title">Eduction</p>
+        <p class="ed-title">Education</p>
         <div class="education-1">
           <div class="ed-info">
             <h4>B.Tech CSE <span>JNEC, Aurangabad</span></h4>
@@ -108,14 +122,14 @@
       </div>
     </div>
   </section>
+
+
   <footer class="footer">
-      <span>All right reserved to Ganesh Musne @2023</span>
-      <div class="social-media">
-        <a href="https://www.linkedin.com/in/ganesh-musne/"><i class="fa-brands fa-linkedin-in"></i></a>
-        <a href="https://github.com/GaneshMusne"><i class="fa-brands fa-github"></i></a>
-        
-        
-      </div>
+    <span>All rights reserved to Ganesh M. @2023</span>
+    <div class="social-media">
+      <a href="https://www.linkedin.com/in/ganesh-musne/"><i class="fa-brands fa-linkedin-in"></i></a>
+      <a href="https://github.com/GaneshMusne"><i class="fa-brands fa-github"></i></a>
+    </div>
   </footer>
 </body>
 
